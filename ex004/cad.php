@@ -17,8 +17,8 @@
             //var_dump($_GET);
             
             
-            $nome = $_GET["nome"];
-            $sobrenome = $_GET["sobrenome"];
+            $nome = $_GET['nome'];
+            $sobrenome = $_GET['sobrenome'];
             echo "<p> É um prazer te conhecer $nome $sobrenome ! Este é meu site";
         ?>
         <!-- javascrip para voltar para pagina anterior -->
